@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration Page</title>
+        <link rel="stylesheet" href="log.css"></link>
+        <script type="text/javascript" src="loginjs.js">
+            
+            
+        </script>
+
+    </head>
+    <body>
+        <h1 class="heading-style">Login<br><br></h1>
+        <form action="index.html" onsubmit="return validate()">
+            <div class="form-style">
+                <br><br><label>User Name</label>
+            <input type="text" name="uname" id="uname" size="30px" onchange="errorChange()"/><br><br>
+            <span class="uname-style" id="uname-error"></span><br><br>
+            <label>Password</label>&nbsp;&nbsp;
+            <input type="password" name="pwd" id="pwd" size="30px"/><br><br>  
+            <span class ="pwd-style" id="pwd-error"></span><br><br>          
+            <button >Submit</button>
+            </div>
+        </form>
+    </body>
+</html>

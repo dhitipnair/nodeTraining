@@ -1,0 +1,31 @@
+.heading-style{    
+   text-align: center;
+    max-width: 400px;
+    margin:auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color:black;
+    color: beige;
+    text-align: center;
+    padding-top: 30px;
+}
+.form-style{
+    max-width: 400px;
+    margin:auto;
+    background-color: beige;
+    text-align: center;
+    font-weight: bold;
+}
+.uname-style{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 50px;
+    color:red;
+}
+.pwd-style{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-left: 50px;
+    color:red;
+}
